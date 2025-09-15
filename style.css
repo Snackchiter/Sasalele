@@ -1,0 +1,31 @@
+.bl1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.bl2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(123, 255, 0);
+}
+
+.bukva {
+    font-size: 1000%;
+    color: black;
+}
+
+.err {
+    font-size: 2000%;
+    color: red;
+}
+
+.tr {
+    transition: 4s;
+}
+
+bl3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+}
