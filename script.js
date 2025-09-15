@@ -1,9 +1,12 @@
 const jamk = document.getElementById('opr')
-const strokviv = document.getElementById('vivod')
-
+const scrimer = document.getElementById('scrimac')
+const scrim = document.querySelector('scrimac')
+const AAAAH = Audio('aah.mp3')
 
 function slozhen() {
-    strokviv.classList.toggle('bukva')
-    strokviv.textContent = "СКИБИДИ ДОП ДОП"
+    scrimer.src = "scrimer.jpg"
+    scrim.append(scrimer)
+    scrimer.textContent = "СКИБИДИ ДОП ДОП"
+    AAAAH.play()
 }
 jamk.addEventListener('click', slozhen)
