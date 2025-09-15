@@ -6,9 +6,12 @@ function slozhen() {
     scrimer.src = "scrimer.jpg"
     scrim.append(scrimer)
     scrimer.textContent = "СКИБИДИ ДОП ДОП"
-    var audio = new Audio();
-    audio.src = 'src/sound.mp3';
-    audio.autoplay = true;
+    AAAAH.volume = 1;
+    if (AAAAH.paused) {
+        AAAAH.play();
+    } else {
+        AAAAHР.pause();
+    }
 
 }
 jamk.addEventListener('click', slozhen)
