@@ -1,17 +1,10 @@
 const jamk = document.getElementById('opr')
-const scrimer = document.getElementById('scrimac')
-const scrim = document.querySelector('scrimac')
-const AAAAH = document.getElementById('AAH')
-function slozhen() {
-    scrimer.src = "scrimer.jpg"
-    scrim.append(scrimer)
-    scrimer.textContent = "СКИБИДИ ДОП ДОП"
-    AAAAH.volume = 1;
-    if (AAAAH.paused) {
-        AAAAH.play();
-    } else {
-        AAAAHР.pause();
-    }
+const strokviv = document.getElementById('vivod')
+const AAAAH = new Audio('aah.mp3')
 
+function slozhen() {
+    strokviv.classList.toggle('bukva')
+    strokviv.textContent = "СКИБИДИ ДОП ДОП"
+    AAAAH.play()
 }
 jamk.addEventListener('click', slozhen)
