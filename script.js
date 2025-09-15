@@ -1,8 +1,7 @@
 const jamk = document.getElementById('opr')
 const scrimer = document.getElementById('scrimac')
 const scrim = document.querySelector('scrimac')
-const AAAAH = Audio('aah.mp3')
-
+const AAAAH = document.getElementById('AAH')
 function slozhen() {
     scrimer.src = "scrimer.jpg"
     scrim.append(scrimer)
