@@ -10,6 +10,16 @@
     background-color: rgb(123, 255, 0);
 }
 
+.fon {
+    background-image: url('scrimer.jpg');
+}
+
+.fonik {
+    background-image: url('scrimer.jpg');
+    background-size: 200%;
+    background-position: center;
+}
+
 .bukva {
     font-size: 1000%;
     color: black;
@@ -32,15 +42,14 @@
 }
 
 .scrimacpizd {
-    width: 1500px;
-    height: 1000px;
+    background-color: aqua;
 }
 
 .tr {
     transition: 4s;
 }
 
-bl3 {
+.bl3 {
     width: 100px;
     height: 100px;
     background-color: rgb(255, 0, 0);
