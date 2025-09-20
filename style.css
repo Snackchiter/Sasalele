@@ -20,6 +20,12 @@
     background-position: center;
 }
 
+.fox {
+    background-image: url('foxy-jumpscare.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .bukva {
     font-size: 1000%;
     color: black;

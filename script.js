@@ -2,6 +2,7 @@ const jamk = document.getElementById('opr')
 const AAAAH = new Audio('aah.mp3')
 const scrimer = document.getElementById('scrimer')
 const fonch = document.getElementById('body')
+const OR = new Audio('fox.mp3')
 function slozhen() {
     AAAAH.loop = true
     AAAAH.play()
@@ -14,6 +15,14 @@ function slozhen() {
             }, 50);
         }, 50);
     }, 100);
+    setInterval(() => {
+        fonch.classList.add('fox')
+        AAAAH.play()
+        OR.play()
+        setInterval(() => {
+            fonch.classList.remove('fox')
+        }, 1000);
+    }, 5000);
 }
 
 jamk.addEventListener('click', slozhen)
