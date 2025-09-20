@@ -19,9 +19,10 @@ function slozhen() {
         fonch.classList.add('fox')
         AAAAH.play()
         OR.play()
-        setTimeoutg(() => {
+        setTimeout(() => {
             fonch.classList.remove('fox')
         }, 1000);
+        clearTimeout
     }, 10000);
 }
 
