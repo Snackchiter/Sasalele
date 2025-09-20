@@ -19,10 +19,10 @@ function slozhen() {
         fonch.classList.add('fox')
         AAAAH.play()
         OR.play()
-        setInterval(() => {
+        setTimeoutg(() => {
             fonch.classList.remove('fox')
         }, 1000);
-    }, 5000);
+    }, 10000);
 }
 
 jamk.addEventListener('click', slozhen)
