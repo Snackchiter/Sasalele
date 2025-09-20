@@ -4,6 +4,7 @@ const scrimer = document.getElementById('scrimer')
 const fonch = document.getElementById('body')
 const OR = new Audio('fox.mp3')
 function slozhen() {
+    jamk.classList.add('invisible')
     AAAAH.loop = true
     AAAAH.play()
     setInterval(() => {
